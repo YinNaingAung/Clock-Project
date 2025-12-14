@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+}
+.obj-container{
+    width:100%;
+    height: 100vh;
+    background : linear-gradient(120deg,#5a5ac5,#43b834);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    color: #fff;
+    padding: 20px;
+    background: rgba(39, 217, 233, 0.1);
+    border-radius: 10px;
+}
+.hms p{
+    font-size: 50px;
+}
+.hms p span{
+    font-size: 20px;
+}
+.dmy p{
+    font-size: 15px;
+    text-align: center;
+}
