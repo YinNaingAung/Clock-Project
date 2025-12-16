@@ -18,7 +18,9 @@ let ampm = nc_hour >= 12 ? "PM" : "AM";
 
 if(nc_hour>12){
     let currentHour = date.getHours() -12;
-    hours = "0"+ currentHour;
+    hours =  currentHour <10 ? "0" + currentHour : currentHour;
+   
+
 }else if(nc_hour === 0){
     hours = 12
 }else{
